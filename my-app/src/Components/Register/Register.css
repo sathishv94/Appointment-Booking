@@ -1,0 +1,105 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Aleg;
+    src: url('../Home/Assets/Aleg.ttf');
+}
+.Regi
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(109, 109, 246);
+    border-radius: 6% 6%;
+   margin-top: 100px ;
+   margin-bottom: 100px;
+}
+.Regi-img
+{
+    height:100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;  
+}
+.Regi-img img
+{
+    height:90%;
+    width: 90%;
+    display: grid;
+    margin: auto;  
+}
+.Regi-form
+{
+    display: grid;
+    margin: auto;
+    font-family: Aleg;
+}
+.regi-btn 
+{
+    color: rgb(1, 179, 250);
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 40%;
+    background: none;
+}
+
+.re-btn
+{
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+margin-bottom: 20px;
+}
+.Log-btn
+{
+    color: rgb(1, 179, 250);
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 40%;
+    background: none;
+   
+}
+
+input[type='text']
+{
+    height:40px;
+    width: 100%;
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 3px 3px;
+    margin-bottom: 5px;
+    
+}
+input:focus
+{
+    outline: 1px solid rgb(109, 109, 246);
+}
+input[type='Password']
+{
+    height:40px;
+    width: 100%;
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 3px 3px;
+    margin-bottom: 5px;
+}
+.errortext
+{
+    color:red;
+}
+@media all and (max-width:650px)
+{
+    .Regi
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Regi-img 
+    {
+        display: none;
+    }
+}

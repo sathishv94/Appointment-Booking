@@ -1,0 +1,173 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: Aleg;
+    src: url('../Home/Assets/Aleg.ttf');
+}
+.clini
+{
+    padding: 20px 20px;  
+}
+.clini h1
+{
+    font-family: Aleg;
+    color: blue;
+}
+.clini h3
+{
+    font-family: Aleg;
+}
+
+.cli
+{
+    color: blue;
+}
+.of
+{
+    border-bottom: 3px solid aqua;
+}
+.clini-image
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clini-image img{
+    height: 70%;
+    width: 70%;
+}
+.clini-head
+{
+    
+    width: 90%;
+    margin: auto;
+    font-family: Aleg;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+  
+   
+}
+.fac2-image
+{
+   height:100%; 
+   width: 100%;
+   position: relative;
+   animation: smoothJump 2s infinite ease-in-out;
+  
+}
+@keyframes smoothJump {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+.fac2-image img{
+height: 80%;
+width:90%;
+}
+.eme
+{
+    padding-top: 50px;
+}
+.emer
+{
+    padding-top: 0px;
+}
+.clini-head1
+{
+    padding-top: 40px;
+}
+
+.eme h6{
+    font-size: 1.2rem;
+    padding-top: 20px;
+    font-family: Aleg;
+}
+.eme svg{
+    height: 50%;
+    width: 4%;
+    color: blue;
+}
+.accord
+{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.acc-image
+{
+    height: 100%;
+    width: 100%;
+}
+.acc-image img{
+    height: 100%;
+    width: 100%;
+}
+.acc-head
+{
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.sec-eight
+{
+    background-image: url('../Home/Assets/hos2.jpg');
+    background-size: 100% 100%; 
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.eight-head
+{
+   border: 2px solid white;
+   padding: 30px 30px;
+   background-color: #8a64e3;
+   margin: 20px 20px;
+}
+.eight-head h1
+{
+   
+   padding-bottom: 50px ;
+   color: white;
+   font-family: Aleg;
+}
+.eight-head h6
+{
+    
+   padding-top: 10px ;
+   color: white;
+   font-size: 1.2rem;
+   font-weight:550;
+}
+.eight-table
+{
+    display: grid;
+    align-content: center;
+    place-items: center;
+}
+@media all and (max-width:550px)
+{
+    .clini-head
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .accord
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+

@@ -1,0 +1,84 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Aleg;
+    src: url('../Home/Assets/Aleg.ttf');
+}
+.Admin
+{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+.Ad-form
+{
+    display: grid;
+    justify-items: center;
+    padding-top: 30px;
+    width: 35%;
+    padding-bottom: 50px;
+    font-family: Aleg;
+    border: 2px solid rgb(109, 109, 246);
+    border-radius: 10px 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.Admi-btn 
+{
+    color: rgb(1, 179, 250);
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 40%;
+    background: none;
+    
+}
+.Ad-btn 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ad-input input[type='text']
+{
+    height:40px;
+    width: 250px;
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 3px 3px;
+    margin-bottom: 20px;
+}
+.Ad-input input[type='Password']
+{
+    height:40px;
+    width: 250px;
+    border: 1px solid rgb(109, 109, 246);
+    border-radius: 3px 3px;
+    margin-bottom: 20px;
+}
+input:focus
+{
+    outline: 1px solid rgb(109, 109, 246);
+}
+@media all and (max-width:890px)
+{
+    .Ad-form
+    {
+        width: 50%;
+    }
+}
+@media all and (max-width:500px)
+{
+    .Ad-form
+    {
+        width: 80%;
+    }
+}

@@ -1,0 +1,94 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Aleg;
+    src: url('../Home/Assets/Aleg.ttf');
+}
+.Logi
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    margin: auto;
+    border: 2px solid #02bda4;
+    border-radius: 6% 6%;
+   margin-top: 100px ;
+   margin-bottom: 100px;
+}
+.Logi-img
+{
+    height:100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+   
+}
+.Logi-img img
+{
+    height:90%;
+    width: 90%;
+    display: grid;
+    margin: auto;
+    
+   
+}
+.Logi-form
+{
+    display: grid;
+    margin: auto;
+    padding-bottom: 50px;
+    font-family: Aleg;
+}
+.Logi-btn 
+{
+    color: rgb(1, 179, 250);
+    border: 1px solid #02bda4;
+    border-radius: 5px 5px;
+    padding: 5px;
+    width: 40%;
+    background: none;
+    
+}
+.Lo-btn 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Log-input input[type='text']
+{
+    height:40px;
+    width: 250px;
+    border: 1px solid #02bda4;
+    border-radius: 3px 3px;
+    margin-bottom: 20px;
+}
+.Log-input input[type='Password']
+{
+    height:40px;
+    width: 250px;
+    border: 1px solid #02bda4;
+    border-radius: 3px 3px;
+    margin-bottom: 20px;
+}
+input:focus
+{
+    outline: 1px solid #02bda4;
+}
+@media all and (max-width:650px)
+{
+    .Logi
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Logi-img 
+    {
+        display: none;
+    }
+}

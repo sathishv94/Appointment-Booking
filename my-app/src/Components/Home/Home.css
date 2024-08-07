@@ -1,0 +1,401 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Aleg;
+    src: url('./Assets/Aleg.ttf');
+}
+
+.home {
+   background-image: url('../Home//Assets/back8.jpg');
+   background-size: 100% 100%;
+   
+   display: grid;
+   grid-template-columns: 1fr;
+   justify-content: flex-start;
+   padding-left: 170px;
+   
+}
+
+.head-title {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.head-title,
+h1 {
+    font-family: Aleg;
+}
+
+.title h6 {
+    color: rgb(63, 59, 59);
+}
+
+.View {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(to right, #0054d1, #6DD5FA);
+    color: white;
+    border: 2px solid #6DD5FA;
+}
+
+.View:hover {
+    color: #6DD5FA;
+    background-image: linear-gradient(white, white);
+    border: 2px solid #6DD5FA;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 50px;
+    margin: auto;
+    gap: 20px;
+    background-color: #0054d1;
+    margin: 30px 0px;
+}
+
+.details-one {
+    border: 1px solid rgb(7, 179, 247);
+    background-color: white;
+    padding-top: 10px;
+}
+
+.details-two {
+    border: 1px solid rgb(7, 179, 247);
+    background-color: white;
+    padding-top: 10px;
+}
+
+.details-three {
+    border: 1px solid rgb(7, 179, 247);
+    background-color: white;
+    padding-top: 10px;
+}
+
+.primary {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.emergency {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.online {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details svg {
+    color: #6DD5FA;
+    display: grid;
+    place-self: center;
+}
+
+.svg2 {
+    display: grid;
+    justify-content: center;
+}
+
+.svg3 {
+    display: grid;
+    justify-content: center;
+}
+
+.details {
+    font-family: Aleg;
+}
+
+.details h5 {
+    font-size: 1.3rem;
+    font-family: Aleg;
+    color:rgb(28, 189, 253);
+}
+
+.details h6 {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+
+.details-para {
+    letter-spacing: 1px;
+    color: #848582;
+}
+
+.sec-three {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.three-image {
+
+    width: 100%;
+}
+
+.three-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.three-para {
+    padding-top: 20px;
+}
+
+.Treat {
+    grid-column: 2/6;
+    font-family: Aleg;
+}
+
+.Treat h6 {
+    color: rgb(98, 98, 248);
+    font-family: Aleg;
+    font-size: 1.2rem;
+}
+
+.Treat p {
+    font-family: Aleg;
+    font-size: 1.1rem;
+    color: #848582;
+}
+
+.sec-four {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    font-family: Aleg;
+    background-color:#f5fbff ;
+    overflow: hidden;
+}
+
+.four-head p {
+    font-size: 1.1rem;
+}
+.four-head h1 {
+    color: #0054d1;
+}
+.four-head{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slider-container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.car-image h6 {
+    text-align: center;
+    padding: 20px;
+    font-family: Aleg;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.car-image {
+    padding-top: 20px;
+}
+
+.car-image img {
+    margin: auto;
+    
+    width: 40%;
+}
+.sec-five
+{
+    margin-bottom: 50px;
+}
+.five-head
+{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.five-head img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.overlay-text {
+    
+    text-align: center;
+    width: 50%;
+    
+}
+.five-head:hover .small-line{
+    opacity:1;
+}
+
+.five-head:hover .overlay {
+    opacity: 1;
+}
+.sec-six
+{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px !important;
+}
+.six-head
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+   padding-top: 40px;
+   
+}
+
+.six-image img{
+    height: 100%;
+    width: 100%;
+   transition: .5s;
+    border-radius: 5px 5px 0px 0px;
+}
+.six-image
+{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    font-family: Aleg;
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.six-image-title
+{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    padding: 10px  ;
+    background-color: #f5fbff;
+   transition: .5s;
+}
+.six-image:hover .six-image-title
+{
+    background-color: #05b5f5;
+    color: white;
+    transform:scale(1.1);
+}
+.six-image:hover img
+{
+    transform:scale(1.1);
+}
+
+@media all and (max-width:890px) {
+    .home
+    {
+    padding-left: 30px;
+    }
+    .six-head
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);  
+    }
+    .details
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .details-one
+    {
+        width: 50%;
+       margin-top: 10px;
+    }
+    .details-two
+    {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .details-three
+    {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
+@media all and (max-width:500px) {
+    .home
+    {
+    background-image: none;
+    background-color: #028ebd;
+    }
+    .six-head
+    {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+    .details-one
+    {
+        width: 80%;
+       margin-top: 10px;
+    }
+    .details-two
+    {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .details-three
+    {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .sec-three
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+    .three-para{
+        padding-top: 0px;
+        gap:0px
+    }
+    
+}
